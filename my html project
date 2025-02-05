@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML5 Project</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About This Site</h2>
+            <p>This is a simple HTML5 project that follows all the necessary guidelines for validation and accessibility.</p>
+        </section>
+        
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <ul>
+                <li><img src="image1.jpg" alt="Beautiful mountain landscape"></li>
+                <li><img src="image2.jpg" alt="A peaceful beach scene"></li>
+                <li><img src="image3.jpg" alt="City skyline at night"></li>
+            </ul>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out via my <a href="https://example.com">website</a>.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
